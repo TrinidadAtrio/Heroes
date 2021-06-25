@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* ----- Estilos body ----- */
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+i{
+    color: #CC2424;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: #FFF;
+}
+/* ----- Estilos header ----- */
+.descuentos{
+    background-color:#1CD1B0;
+    color: #000;
+    font-size: 15px;
+    padding: 10px;
+}
+.heroes{
+    background-color: #00669F;
+    color:#000;
+    font-size: 40px;
+    padding: 28px;
+    box-shadow: 0px 5px 15px gray;
+}
+/* ----- ESTILOS MAIN ----- */
+/* ----- Estilos caja  ----- */
+.cards{
+    display: flex;
+    justify-content: space-around;
+}
+.Caja1, .Caja2, .Caja3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    text-align: center;
+}
+.Caja1-texto .Caja2-texto .Caja3-texto{
+    font-size: 16px;
+    position: absolute;
+    background: #F3F3F3;
+}
+.Caja1-perfil img, .Caja2-perfil img, .Caja3-perfil img{
+    position: absolute;
+    border-radius: 100%;
+    width: 120px;
+    height: 120px;
+    bottom: calc(0% - 60px);
+    right: calc(50% - 60px);
+}
+.imagen1, .imagen2, .imagen3{
+    position: relative;
+}
+.Caja1-perfil, .Caja2-perfil, .Caja3-perfil{
+    position: relative;
+}
+.ancla{
+    background-color: #00669F;
+    color: #FFF;
+    padding: 15px 31px;
+    width: 130px;
+    height: 48px;
+}
+/* ----- Estilos del footer ----- */
+footer{
+    background-color: #00669F;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    padding: 16px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
